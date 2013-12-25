@@ -1,9 +1,14 @@
 // Find content container
 var contentDiv = document.getElementById("cnnContentContainer");
 
-// Mexico edition uses a different DOM for content
+// Find the content div for Mexico edition
 if (!contentDiv) {
     contentDiv = document.getElementById("contenido");
+}
+
+// Fidn the content div for CNN Money
+if (!contentDiv) {
+    contentDiv = document.getElementById("storycontent");
 }
 
 // Add extra sadness
