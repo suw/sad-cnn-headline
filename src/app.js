@@ -6,7 +6,7 @@ if (!contentDiv) {
     contentDiv = document.getElementById("contenido");
 }
 
-// Fidn the content div for CNN Money
+// Find the content div for CNN Money
 if (!contentDiv) {
     contentDiv = document.getElementById("storycontent");
 }
@@ -14,3 +14,7 @@ if (!contentDiv) {
 // Add extra sadness
 var topHeader = contentDiv.getElementsByTagName("h1");
 topHeader[0].innerText = topHeader[0].innerText.concat(" :\/");
+
+//For new US version
+var headlineDiv = document.getElementsByClassName("pg-headline");
+headlineDiv[0].innerText = headlineDiv[0].innerText.concat(" :\/");
