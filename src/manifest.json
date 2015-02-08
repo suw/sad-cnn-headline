@@ -1,9 +1,9 @@
 {
     "manifest_version": 2,
 
-    "name": "Sad CNN Headline",
-    "description": "Adds a :\/ face to every headline on CNN story",
-    "version": "1.0.4",
+    "name": "Sad News Headline",
+    "description": "Adds a :\/ face to news headlines on the interwebz",
+    "version": "1.1.0",
 
     "icons": {
         "16": "icon16.png",
